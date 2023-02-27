@@ -1,0 +1,309 @@
+body{
+    font-family: 'Roboto',Arial,sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+header{
+    position:static ;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 4px 2px -2px rgb(223, 221, 221);
+}
+
+.top_menu{
+    position: relative;
+    width:auto;
+    margin-top: 20px;
+    margin-left: 250px;
+    align-items: center;
+}
+.top_menu a{
+    padding-right:60px;
+    top: 10px;
+    position: relative;
+    font-family: 'Roboto',Arial,sans-serif;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#333333 ;
+}
+.top_menu a:hover{
+    color:#44a5fa; 
+}
+.top_menu button{
+    position: absolute;
+    margin-left:50px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #44a5fa;
+    cursor: pointer;
+}
+.top_menu p{
+    position: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    top: 5px;
+}
+
+main{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.about{
+
+    height:auto;
+    max-width: 700px;
+}
+.about strong{
+    font-weight: 700;
+    font-size: 40px;
+    color:rgb(68, 165, 250); 
+    letter-spacing: 0;
+    line-height: 27px;
+}
+.stab{
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 70px;
+}
+.img2{
+    position: absolute;
+    width: 40px;
+}
+.col p{
+    font-weight: 700;
+    color: #44a5fa;
+}
+.col p span{
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.p1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.img3{
+    position: absolute;
+    width: 40px;
+    margin-top: 50px;
+}
+
+.img4{
+    position: absolute;
+    width: 40px;
+    margin-top: 100px;
+}
+
+.p2{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.p3{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+.try{
+    margin-top: 170px;
+    margin-left: 15px;
+    border-radius: 30px;
+    width: 250px;
+    height:60px;
+    background-color: #44a5fa;
+    border: 1px solid #44a5fa;
+    color:white;
+    cursor: pointer;
+}
+.otl{
+    color: #44a5fa;
+}
+.dif{
+    margin-top: 100px;
+    line-height: 20px;
+}
+.img5{
+    width: 1150px;
+    border-radius: 25px;
+}
+.start{
+    margin-top: 100px;
+    line-height: 15px;
+}
+.st1{
+    color: #44a5fa;
+}
+
+main{
+    background-image: url(Telegram\ userbot\ api\ -\ Google\ Chrome\ 24.02.2023\ 23_14_35.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 600px -40px;
+}
+
+.fast1{
+    color: #44a5fa;
+}
+.fast{
+    margin-top: 80px;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.links{
+    line-height: 40px;
+    margin-top: 200px;
+}
+
+.sms a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.photo a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tell a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input_block{
+    position: absolute;
+    width: 658px;
+    height: 452px;
+    box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
+    margin-left: 520px;
+    margin-top: -150px;
+    border-radius: 15px;
+}
+.input_block .search{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+.code{
+    width: 560px;
+    height: 280px;
+    background-color: #333333;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 15px; 
+}
+
+.btn1{
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn2{
+    margin-left:170px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.price{
+    margin-top:400px;
+}
+
+.tarif{
+    color: #44a5fa;
+}
+
+.block{
+    margin-top:150px;
+    margin-left: 350px;
+    width: 380px;
+    height: 450px;
+    box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
+    line-height: 20px;
+    border-radius: 15px;
+}
+
+.block img{
+    position: absolute;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.block p{
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+}.count{
+    margin-left: 110px;
+    color: #44a5fa;
+}
+
+.choose{
+    margin-top: 20px;
+    margin-left: 90px;
+    width:250px;
+    height: 50px;
+    background-color: #44a5fa;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wallets{
+    margin-top: 35px;
+    width: 850px;
+    margin-left: 150px;
+}
+
+footer{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+}
+
+.news{
+    margin-top:120px;
+    margin-left: 450px;
+    color: #44a5fa;
+}
