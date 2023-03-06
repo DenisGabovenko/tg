@@ -10,11 +10,11 @@ header{
 }
 
 .top_menu{
-    min-height: auto;
+    max-height: 100%;
     position: relative;
-    max-width:auto;
+    max-width: 100%;
     margin-top: 20px;
-    margin-left: 390px;
+    margin-left: 350px;
     align-items: center;
 }
 
@@ -22,7 +22,7 @@ header{
     top: 8px;
     position: relative;
     font-family: 'Roboto',Arial,sans-serif;
-    margin-right: 55px;
+    margin-right: 50px;
     text-decoration: none;
     font-size: 18px;
     color:#333333 ;
@@ -33,8 +33,9 @@ header{
 }
 
 .top_menu button{
-    position: absolute;
-    margin-left:120px;
+    position: relative;
+    top: 15px;
+    left:100px;
     height: 46px;
     width: 180px;
     border-radius: 30px;
@@ -44,14 +45,15 @@ header{
 }
 
 .top_menu p{
-    position: center;
+    position: relative;
     font-size: 14px;
     font-weight: 400;
     color: white;
-    top: 5px;
 }
 
 main{
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 70px;
     margin-left: 50px;
 }
@@ -81,8 +83,19 @@ main{
     position: absolute;
     width: 40px;
 }
-
+.col{
+    min-width: auto;
+    max-width: 100%;
+    position: relative;
+    min-width:auto;
+    width: 450px;
+    height: 100px;
+    
+}
 .col p{
+    width: auto;
+    position: relative;
+    margin-top: 0px;
     font-weight: 700;
     color: #44a5fa;
 }
@@ -94,37 +107,38 @@ main{
 }
 
 .p1{
-    position: absolute;
+    position: relative;
     margin-left: 50px;
-    margin-top: 10px;
+    top: 10px;
 }
 
 .img3{
     position: absolute;
     width: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .img4{
     position: absolute;
     width: 40px;
-    margin-top: 100px;
-}
-
-.p2{
-    position: absolute;
-    margin-left: 50px;
     margin-top: 60px;
 }
 
+.p2{
+    width: auto;
+    position: relative;
+    left:50px;
+    top: 40px;
+}
+
 .p3{
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 110px;
+    position: relative;
+    top:70px;
+    left: 50px;
 }
 
 .try{
-    margin-top: 170px;
+    margin-top: 150px;
     margin-left: 15px;
     border-radius: 30px;
     width: 250px;
@@ -145,6 +159,7 @@ main{
 }
 
 .img5{
+    max-width: 100%;
     margin-right: 50px;
     margin-top: 10px;
     width: 1280px;
@@ -168,12 +183,16 @@ main{
 
 .fast1{
     color: #44a5fa;
+    line-height: 40px;
 }
 
 .fast{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 80px;
     font-size: 19px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .links{
@@ -213,38 +232,39 @@ main{
 
 .input_block{
     position: absolute;
+    max-width: 100%;
     width: 700px;
     height: 500px;
     box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
-    margin-left: 580px;
-    margin-top: -150px;
+    margin-left: 550px;
+    margin-top:-150px;
     border-radius: 15px;
 }
 
-.input_block .search{
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 50px;
+.search{
+    margin-left:40px;
+    top: 0px;
     color: #44a5fa;
     font-size: 18px;
     font-weight: 700;
 }
 
 .code{
+    max-height: 100%;
+    max-width: 100%;
     width: 600px;
     height: 350px;
     background-color: #333333;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 50px;
+    top: 0px;
+    margin-left:50px;
     border-radius: 15px; 
 }
 
 .btn1{
+    top: 2px;
     width: 90px;
     height: 40px;
-    position: absolute;
-    margin-top: 80px;
+    position: relative;
     margin-left: 70px;
     border-radius: 10px;
     border: 1px solid white;
@@ -252,16 +272,19 @@ main{
 }
 
 .btn2{
-    margin-left:170px;
+    position: relative;
+    margin-left:10px;
     width: 90px;
     height: 40px;
     border-radius: 10px;
     border: 1px solid white;
-    margin-top: 80px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
 .price{
+    max-width: 100%;
+    max-height: 100%;
     margin-top:400px;
 }
 
@@ -270,27 +293,29 @@ main{
 }
 
 .block{
+    max-width: 100%;
+    max-height: 100%;
     margin-top:130px;
     margin-left: 520px;
     width: 380px;
     height: 500px;
     box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
-    line-height: 20px;
     border-radius: 15px;
 }
 
 .block img{
     align-items: center;
-    position: absolute;
+    position: relative;
     width: 25px;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .block p{
     line-height: 20px;
-    margin-top: 30px;
-    margin-left: 50px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
     font-size: 15px;
 }
 
